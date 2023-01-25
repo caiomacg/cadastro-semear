@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cadastro-semear/static/css/main.1cc22883.css",
+    "main.js": "/cadastro-semear/static/js/main.d82aa7db.js",
+    "static/media/videoBg.mp4": "/cadastro-semear/static/media/videoBg.d26e0581401b3b35ad6f.mp4",
+    "index.html": "/cadastro-semear/index.html",
+    "main.1cc22883.css.map": "/cadastro-semear/static/css/main.1cc22883.css.map",
+    "main.d82aa7db.js.map": "/cadastro-semear/static/js/main.d82aa7db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cc22883.css",
+    "static/js/main.d82aa7db.js"
+  ]
+}
