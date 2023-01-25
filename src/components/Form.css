@@ -188,15 +188,77 @@ select {
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:750px) {
 
     .container {
-        width: 85%;
+        width: 90%;
         height: 75%;
         margin-top: 2rem;
     }
 
     .container p {
         font-size: 0.7rem;
+        margin-top: 0;
+    }
+
+    .parte_1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .parte_1 input {
+        margin-top: 0rem;
+    }
+    
+
+    .form_1nome {
+        width: 100%;
+    }
+    
+    .form_2nome {
+        width: 100%;
+    }
+
+    .parte_2 {
+        margin-top: 0.5rem;
+    }
+
+    .parte_3 {
+        margin-top: 0.5rem;
+    }
+
+    .parte_3 input {
+        margin-top: 0rem;
+    }
+
+    .parte_4 {
+        margin-top: 0.5rem;
+    }
+
+    .parte_4 input {
+        margin-top: 0rem;
+    }
+
+    .parte_5 {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    
+    .parte_5 input {
+        
+        margin-bottom: 0.5rem;
+    }
+    
+    .senha{
+        width: 100%;
+    }
+    
+    .confirmar_senha {
+        width: 100%;
     }
 }
