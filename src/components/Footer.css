@@ -1,0 +1,39 @@
+.container_footer {
+    background-color: #975E2F;
+}
+
+.redes_sociais {
+   display: flex;
+   font-size: 2rem;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   padding-top: 1rem;
+
+}
+
+.redes_sociais a {
+    color: #fff;
+}
+
+.logo_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.tags_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.politica {
+    background-color: #975E2F;
+    border: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

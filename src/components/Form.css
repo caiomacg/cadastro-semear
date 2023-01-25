@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+   width: 100%;
+   height: 100vh; 
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-top: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    border-radius: 30px;
+    padding: 2rem 2rem;
+
+}
+
+.container h1 {
+    color: #975E2F;
+    font-size: 2rem;
+}
+
+.container p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.parte_1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.form_1nome {
+    width: 50%;
+}
+
+.form_2nome {
+    width: 50%;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: none;
+}
+
+select {
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.parte_1 input {
+    width: 100%;
+}
+
+.parte_2 {
+    margin-top: 1rem;
+}
+
+.parte_2 select{
+    width: 100%;
+    color: gray;
+}
+
+.parte_3 input{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.parte_4 input{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.parte_5 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.parte_5 input {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.senha{
+    width: 50%; 
+}
+
+.confirmar_senha {
+    width: 50%;
+}
+
+.aceitar_privacidade p{
+   font-size: 1rem;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.parte_6 {
+    display: flex;
+    justify-content: center;
+}
+
+.tem_umaconta_entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tem_umaconta_entrar p {
+    font-size: 1rem;
+
+}
+
+.tem_umaconta_entrar a {
+    text-decoration: none;
+}
+
+.btn_submit {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: #975E2F;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+}
+
+
+
+@media (max-width:1000px) {
+
+    .container {
+        width: 85%;
+        height: 75%;
+        margin-top: 2rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:700px) {
+
+    .container {
+        width: 85%;
+        height: 75%;
+        margin-top: 2rem;
+    }
+
+    .container p {
+        font-size: 0.7rem;
+    }
+}
