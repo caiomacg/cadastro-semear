@@ -10,6 +10,10 @@ function Footer () {
     return (
         <div className='container_footer'>
 
+            <div className='logo_footer'>
+                <img src='https://www.isemear.org.br/wp-content/uploads/2022/12/logo-white.png' alt='Logo do Semear'></img>
+            </div>
+
             <div className='redes_sociais'>
                 <div className='insta'>
                     <a href='#'> <InstagramOutlined /> </a>
@@ -25,7 +29,7 @@ function Footer () {
                 </div>
             </div>
 
-            
+           
 
             <div className='tags_footer'>
 

@@ -24,12 +24,7 @@ video {
     align-items: center;
 }
 
-.container_header {
-    display: flex;
-    position: absolute;
-    top: 0;
-    margin-top: 2rem;
-}
+
 
 .overlay {
     position: absolute;
@@ -41,7 +36,7 @@ video {
 }
 
 .container {
-    position: absolute;
+    position:absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;

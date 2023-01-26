@@ -2,6 +2,10 @@
     background-color: #975E2F;
 }
 
+.logo_footer {
+    padding-top: 1rem;
+}
+
 .redes_sociais {
    display: flex;
    font-size: 2rem;
