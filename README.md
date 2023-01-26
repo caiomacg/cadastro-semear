@@ -5,5 +5,5 @@ Formulário desenvolvido para case do processo seletivo Semear para Líder de Fr
 Criado com React
 
 
-Code by Caio Machado
+Code with ❤️ by Caio Machado
 
